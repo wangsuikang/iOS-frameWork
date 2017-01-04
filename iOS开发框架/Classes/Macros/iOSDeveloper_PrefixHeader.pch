@@ -1,0 +1,14 @@
+//
+//  iOSDeveloper_PrefixHeader.pch
+//  iOS开发框架
+//
+//  Created by aplple on 16/12/21.
+//  Copyright © 2016年 huatan. All rights reserved.
+//
+
+#ifndef iOSDeveloper_PrefixHeader_pch
+#define iOSDeveloper_PrefixHeader_pch
+#define WS_Screen_Width [[UIScreen mainScreen]bounds].size.width
+#define WS_Screen_Height [[UIScreen mainScreen]bounds].size.height
+
+#endif /* iOSDeveloper_PrefixHeader_pch */
