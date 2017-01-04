@@ -7,7 +7,10 @@
 //
 
 #import "AppDelegate.h"
-
+#import "WSLeftViewController.h"
+#import "WSCenterViewController.h"
+#import "WSRightController.h"
+#import "MMDrawerController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,7 +20,23 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+    WSLeftViewController * left = [[WSLeftViewController alloc]init];
+    WSCenterViewController * center = [[WSCenterViewController alloc]init];
+    UINavigationController * centerNav = [[UINavigationController alloc]initWithRootViewController:center];
+    WSRightController * right = [[WSRightController alloc]init];
+    MMDrawerController * draw = [[MMDrawerController alloc]initWithCenterViewController:centerNav leftDrawerViewController:left rightDrawerViewController:right];
+    center.drawerController = draw;
+    [draw setShowsShadow:YES];
+    // 设置页面显示宽度
+    [draw setMaximumRightDrawerWidth:self.window.frame.size.width];
+    [draw setMaximumLeftDrawerWidth:self.window.frame.size.width-80];
+    // 三个页面切换
+    [draw setOpenDrawerGestureModeMask:MMOpenDrawerGestureModeAll];
+    [draw setCloseDrawerGestureModeMask:MMCloseDrawerGestureModeAll];
+    
+    self.window.rootViewController = draw;
+    
+
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

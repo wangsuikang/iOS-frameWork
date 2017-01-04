@@ -8,6 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		4374EAC808C82A1B99AC14A2 /* libPods-iOS开发框架.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E53E596700B2E3302FAD8840 /* libPods-iOS开发框架.a */; };
+		F208D3F21E1CD34700B0837A /* tab_0.png in Resources */ = {isa = PBXBuildFile; fileRef = F208D3DF1E1CD34700B0837A /* tab_0.png */; };
+		F208D3F31E1CD34700B0837A /* tab_1.png in Resources */ = {isa = PBXBuildFile; fileRef = F208D3E01E1CD34700B0837A /* tab_1.png */; };
+		F208D3F41E1CD34700B0837A /* tab_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F208D3E11E1CD34700B0837A /* tab_2.png */; };
+		F208D3F51E1CD34700B0837A /* tab_3.png in Resources */ = {isa = PBXBuildFile; fileRef = F208D3E21E1CD34700B0837A /* tab_3.png */; };
+		F208D3F61E1CD34700B0837A /* tab_c0.png in Resources */ = {isa = PBXBuildFile; fileRef = F208D3E31E1CD34700B0837A /* tab_c0.png */; };
+		F208D3F71E1CD34700B0837A /* tab_c1.png in Resources */ = {isa = PBXBuildFile; fileRef = F208D3E41E1CD34700B0837A /* tab_c1.png */; };
+		F208D3F81E1CD34700B0837A /* tab_c2.png in Resources */ = {isa = PBXBuildFile; fileRef = F208D3E51E1CD34700B0837A /* tab_c2.png */; };
+		F208D3F91E1CD34700B0837A /* tab_c3.png in Resources */ = {isa = PBXBuildFile; fileRef = F208D3E61E1CD34700B0837A /* tab_c3.png */; };
+		F208D3FA1E1CD34700B0837A /* tabbg.png in Resources */ = {isa = PBXBuildFile; fileRef = F208D3E71E1CD34700B0837A /* tabbg.png */; };
+		F208D3FB1E1CD34700B0837A /* tab_0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F208D3E91E1CD34700B0837A /* tab_0@2x.png */; };
+		F208D3FC1E1CD34700B0837A /* tab_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F208D3EA1E1CD34700B0837A /* tab_1@2x.png */; };
+		F208D3FD1E1CD34700B0837A /* tab_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F208D3EB1E1CD34700B0837A /* tab_2@2x.png */; };
+		F208D3FE1E1CD34700B0837A /* tab_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F208D3EC1E1CD34700B0837A /* tab_3@2x.png */; };
+		F208D3FF1E1CD34700B0837A /* tab_c0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F208D3ED1E1CD34700B0837A /* tab_c0@2x.png */; };
+		F208D4001E1CD34700B0837A /* tab_c1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F208D3EE1E1CD34700B0837A /* tab_c1@2x.png */; };
+		F208D4011E1CD34700B0837A /* tab_c2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F208D3EF1E1CD34700B0837A /* tab_c2@2x.png */; };
+		F208D4021E1CD34700B0837A /* tab_c3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F208D3F01E1CD34700B0837A /* tab_c3@2x.png */; };
+		F208D4031E1CD34700B0837A /* tabbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F208D3F11E1CD34700B0837A /* tabbg@2x.png */; };
+		F208D4091E1CE85800B0837A /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F208D4071E1CE85800B0837A /* Reachability.m */; };
+		F208D40B1E1CEEAA00B0837A /* navigationBar.png in Resources */ = {isa = PBXBuildFile; fileRef = F208D40A1E1CEEAA00B0837A /* navigationBar.png */; };
+		F208D40D1E1CEEF700B0837A /* bi_chapters_img2.png in Resources */ = {isa = PBXBuildFile; fileRef = F208D40C1E1CEEF700B0837A /* bi_chapters_img2.png */; };
+		F208D40F1E1CF1BF00B0837A /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = F208D40E1E1CF1BF00B0837A /* search.png */; };
 		F20B47E31E14E7C1008DA96B /* WSCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F20B47E11E14E7C1008DA96B /* WSCenterViewController.m */; };
 		F20B47E41E14E7C1008DA96B /* WSCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F20B47E21E14E7C1008DA96B /* WSCenterViewController.xib */; };
 		F20B47E71E14E8B3008DA96B /* WSRightController.m in Sources */ = {isa = PBXBuildFile; fileRef = F20B47E61E14E8B3008DA96B /* WSRightController.m */; };
@@ -40,6 +62,29 @@
 		6A7815C72F5BC7345199414B /* Pods-iOS开发框架.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS开发框架.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS开发框架/Pods-iOS开发框架.release.xcconfig"; sourceTree = "<group>"; };
 		8DC958EF820E375A36071DFA /* Pods-iOS开发框架.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS开发框架.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS开发框架/Pods-iOS开发框架.debug.xcconfig"; sourceTree = "<group>"; };
 		E53E596700B2E3302FAD8840 /* libPods-iOS开发框架.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS开发框架.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F208D3DF1E1CD34700B0837A /* tab_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_0.png; sourceTree = "<group>"; };
+		F208D3E01E1CD34700B0837A /* tab_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_1.png; sourceTree = "<group>"; };
+		F208D3E11E1CD34700B0837A /* tab_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_2.png; sourceTree = "<group>"; };
+		F208D3E21E1CD34700B0837A /* tab_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_3.png; sourceTree = "<group>"; };
+		F208D3E31E1CD34700B0837A /* tab_c0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_c0.png; sourceTree = "<group>"; };
+		F208D3E41E1CD34700B0837A /* tab_c1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_c1.png; sourceTree = "<group>"; };
+		F208D3E51E1CD34700B0837A /* tab_c2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_c2.png; sourceTree = "<group>"; };
+		F208D3E61E1CD34700B0837A /* tab_c3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_c3.png; sourceTree = "<group>"; };
+		F208D3E71E1CD34700B0837A /* tabbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbg.png; sourceTree = "<group>"; };
+		F208D3E91E1CD34700B0837A /* tab_0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_0@2x.png"; sourceTree = "<group>"; };
+		F208D3EA1E1CD34700B0837A /* tab_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_1@2x.png"; sourceTree = "<group>"; };
+		F208D3EB1E1CD34700B0837A /* tab_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_2@2x.png"; sourceTree = "<group>"; };
+		F208D3EC1E1CD34700B0837A /* tab_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_3@2x.png"; sourceTree = "<group>"; };
+		F208D3ED1E1CD34700B0837A /* tab_c0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_c0@2x.png"; sourceTree = "<group>"; };
+		F208D3EE1E1CD34700B0837A /* tab_c1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_c1@2x.png"; sourceTree = "<group>"; };
+		F208D3EF1E1CD34700B0837A /* tab_c2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_c2@2x.png"; sourceTree = "<group>"; };
+		F208D3F01E1CD34700B0837A /* tab_c3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_c3@2x.png"; sourceTree = "<group>"; };
+		F208D3F11E1CD34700B0837A /* tabbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbg@2x.png"; sourceTree = "<group>"; };
+		F208D4061E1CE85800B0837A /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		F208D4071E1CE85800B0837A /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		F208D40A1E1CEEAA00B0837A /* navigationBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigationBar.png; sourceTree = "<group>"; };
+		F208D40C1E1CEEF700B0837A /* bi_chapters_img2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bi_chapters_img2.png; sourceTree = "<group>"; };
+		F208D40E1E1CF1BF00B0837A /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
 		F20B47E01E14E7C1008DA96B /* WSCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSCenterViewController.h; sourceTree = "<group>"; };
 		F20B47E11E14E7C1008DA96B /* WSCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSCenterViewController.m; sourceTree = "<group>"; };
 		F20B47E21E14E7C1008DA96B /* WSCenterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WSCenterViewController.xib; sourceTree = "<group>"; };
@@ -115,6 +160,58 @@
 				E53E596700B2E3302FAD8840 /* libPods-iOS开发框架.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F208D3DC1E1CD32F00B0837A /* ImagesResources */ = {
+			isa = PBXGroup;
+			children = (
+				F208D40E1E1CF1BF00B0837A /* search.png */,
+				F208D40A1E1CEEAA00B0837A /* navigationBar.png */,
+				F208D40C1E1CEEF700B0837A /* bi_chapters_img2.png */,
+				F208D3DD1E1CD34700B0837A /* tabSource */,
+			);
+			path = ImagesResources;
+			sourceTree = "<group>";
+		};
+		F208D3DD1E1CD34700B0837A /* tabSource */ = {
+			isa = PBXGroup;
+			children = (
+				F208D3DE1E1CD34700B0837A /* tabBarIcon */,
+				F208D3E81E1CD34700B0837A /* tabBarRetina */,
+			);
+			path = tabSource;
+			sourceTree = "<group>";
+		};
+		F208D3DE1E1CD34700B0837A /* tabBarIcon */ = {
+			isa = PBXGroup;
+			children = (
+				F208D3DF1E1CD34700B0837A /* tab_0.png */,
+				F208D3E01E1CD34700B0837A /* tab_1.png */,
+				F208D3E11E1CD34700B0837A /* tab_2.png */,
+				F208D3E21E1CD34700B0837A /* tab_3.png */,
+				F208D3E31E1CD34700B0837A /* tab_c0.png */,
+				F208D3E41E1CD34700B0837A /* tab_c1.png */,
+				F208D3E51E1CD34700B0837A /* tab_c2.png */,
+				F208D3E61E1CD34700B0837A /* tab_c3.png */,
+				F208D3E71E1CD34700B0837A /* tabbg.png */,
+			);
+			path = tabBarIcon;
+			sourceTree = "<group>";
+		};
+		F208D3E81E1CD34700B0837A /* tabBarRetina */ = {
+			isa = PBXGroup;
+			children = (
+				F208D3E91E1CD34700B0837A /* tab_0@2x.png */,
+				F208D3EA1E1CD34700B0837A /* tab_1@2x.png */,
+				F208D3EB1E1CD34700B0837A /* tab_2@2x.png */,
+				F208D3EC1E1CD34700B0837A /* tab_3@2x.png */,
+				F208D3ED1E1CD34700B0837A /* tab_c0@2x.png */,
+				F208D3EE1E1CD34700B0837A /* tab_c1@2x.png */,
+				F208D3EF1E1CD34700B0837A /* tab_c2@2x.png */,
+				F208D3F01E1CD34700B0837A /* tab_c3@2x.png */,
+				F208D3F11E1CD34700B0837A /* tabbg@2x.png */,
+			);
+			path = tabBarRetina;
 			sourceTree = "<group>";
 		};
 		F20B47ED1E14E92C008DA96B /* SubControllers */ = {
@@ -288,6 +385,7 @@
 		F2CF011D1E0A844100117A36 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F208D3DC1E1CD32F00B0837A /* ImagesResources */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -295,6 +393,8 @@
 		F2CF011E1E0A844100117A36 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				F208D4061E1CE85800B0837A /* Reachability.h */,
+				F208D4071E1CE85800B0837A /* Reachability.m */,
 				F2CF013C1E0A8B0800117A36 /* NetWorkSpeedMonitor.h */,
 				F2CF013D1E0A8B0800117A36 /* NetWorkSpeedMonitor.m */,
 				F2CF01391E0A8AF800117A36 /* HTToolManager.h */,
@@ -417,13 +517,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				F20B47F71E14E959008DA96B /* WSSecondViewController.xib in Resources */,
+				F208D40D1E1CEEF700B0837A /* bi_chapters_img2.png in Resources */,
+				F208D4001E1CD34700B0837A /* tab_c1@2x.png in Resources */,
+				F208D40F1E1CF1BF00B0837A /* search.png in Resources */,
+				F208D3FD1E1CD34700B0837A /* tab_2@2x.png in Resources */,
+				F208D40B1E1CEEAA00B0837A /* navigationBar.png in Resources */,
+				F208D3FE1E1CD34700B0837A /* tab_3@2x.png in Resources */,
+				F208D3FC1E1CD34700B0837A /* tab_1@2x.png in Resources */,
+				F208D4011E1CD34700B0837A /* tab_c2@2x.png in Resources */,
 				F20B47E41E14E7C1008DA96B /* WSCenterViewController.xib in Resources */,
 				F20B47FC1E14E967008DA96B /* WSThirdViewController.xib in Resources */,
+				F208D3FB1E1CD34700B0837A /* tab_0@2x.png in Resources */,
+				F208D4031E1CD34700B0837A /* tabbg@2x.png in Resources */,
+				F208D3F31E1CD34700B0837A /* tab_1.png in Resources */,
 				F20B47EC1E14E8CB008DA96B /* WSLeftViewController.xib in Resources */,
+				F208D3F71E1CD34700B0837A /* tab_c1.png in Resources */,
+				F208D4021E1CD34700B0837A /* tab_c3@2x.png in Resources */,
+				F208D3F51E1CD34700B0837A /* tab_3.png in Resources */,
 				F20B47F21E14E94A008DA96B /* WSFirstViewController.xib in Resources */,
 				F2CF01051E0A65B100117A36 /* Assets.xcassets in Resources */,
+				F208D3F91E1CD34700B0837A /* tab_c3.png in Resources */,
 				F20B48011E14E974008DA96B /* WSFourViewController.xib in Resources */,
+				F208D3FF1E1CD34700B0837A /* tab_c0@2x.png in Resources */,
+				F208D3F81E1CD34700B0837A /* tab_c2.png in Resources */,
+				F208D3F41E1CD34700B0837A /* tab_2.png in Resources */,
+				F208D3FA1E1CD34700B0837A /* tabbg.png in Resources */,
 				F2CF01081E0A65B100117A36 /* LaunchScreen.storyboard in Resources */,
+				F208D3F21E1CD34700B0837A /* tab_0.png in Resources */,
+				F208D3F61E1CD34700B0837A /* tab_c0.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +617,7 @@
 				F2CF01381E0A88E800117A36 /* NJKWebViewProgressView.m in Sources */,
 				F20B47FB1E14E967008DA96B /* WSThirdViewController.m in Sources */,
 				F20B47E71E14E8B3008DA96B /* WSRightController.m in Sources */,
+				F208D4091E1CE85800B0837A /* Reachability.m in Sources */,
 				F2CF013B1E0A8AF800117A36 /* HTToolManager.m in Sources */,
 				F2CF01411E0A8B2E00117A36 /* HTButtonTool.m in Sources */,
 				F2CF013E1E0A8B0800117A36 /* NetWorkSpeedMonitor.m in Sources */,

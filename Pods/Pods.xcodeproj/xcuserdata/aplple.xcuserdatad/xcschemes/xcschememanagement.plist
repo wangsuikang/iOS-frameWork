@@ -49,6 +49,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SSZipArchive.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>SVProgressHUD.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -72,22 +77,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>0F087562B3D054ECC340CE51170DF850</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>23E3FF788B747B20DE41155F5E817A3C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>25A7D29782425C6C551C436D7640F29B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>3D8E3F6F84EED3E08BD2441A52BFD252</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>540B3C2FA87F8C960931A9AEA107F544</key>
+		<key>5A8895E16B46B251845303B259FE20CC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -97,7 +97,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>798284231E40E7C9BEA18DB3CF034379</key>
+		<key>94700381D26847624EAE6874CC15144F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -112,12 +112,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>98ADAF249BE88594386B93234CCE114A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>9DC8D9E02903E93BD0B2FEC9D846EA20</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B934EDB6D461F2BCE20EBC4BC113CEC0</key>
+		<key>BBF31E2354B357D28F4D69C9CBA2D743</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CF7C242E15687E7AC3BFD0A00A8B6E6C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -7,7 +7,7 @@
 //
 
 #import "HTBaseViewController.h"
-
+#import "MMDrawerController.h"
 @interface WSCenterViewController : HTBaseViewController
-
+@property(nonatomic)MMDrawerController *drawerController;
 @end

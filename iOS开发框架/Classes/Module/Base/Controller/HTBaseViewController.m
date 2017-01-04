@@ -7,7 +7,7 @@
 //
 
 #import "HTBaseViewController.h"
-#import "HTBoardShareController.h"
+
 
 
 typedef void(^DownloadRefursh)();
@@ -16,7 +16,6 @@ typedef void(^DownloadRefursh)();
 @interface HTBaseViewController ()
 
 @property (nonatomic, copy) DownloadRefursh downloadRefursh;
-@property (nonatomic,strong)HTMeetListModel * meetingListModel;
 @end
 
 @implementation HTBaseViewController
@@ -30,21 +29,7 @@ typedef void(^DownloadRefursh)();
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.view.backgroundColor = HT_BackgroundColor;
-    
-    [HTReachabilityTool monitorCheckReachabilityStatusWithNotReachable:^{
-        
-        NSLog(@"0");
-        
-    } WiFiReachable:^{
-        
-        NSLog(@"1");
-        
-    } WWANReachable:^{
-        
-        NSLog(@"2");
-        
-    }];
+
 }
 
 
@@ -52,7 +37,7 @@ typedef void(^DownloadRefursh)();
 {
     [super viewWillAppear:animated];
 //    [self monitorCheckReachability];
-    self.navigationController.navigationBarHidden = YES;
+   // self.navigationController.navigationBarHidden = YES;
     
 }
 
@@ -68,33 +53,33 @@ typedef void(^DownloadRefursh)();
 /**
  *  Description 实时监听网络状态
  */
-- (void)monitorCheckReachability
-{
-    [[AFNetworkReachabilityManager sharedManager] setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
-        
-        switch (status) {
-            case AFNetworkReachabilityStatusNotReachable:{
-
-//                HTLog(@"无网络");
-                break;
-            }
-            case AFNetworkReachabilityStatusReachableViaWiFi:{
-           
-//                HTLog(@"WiFi网络");
-                
-                break;
-            }
-            case AFNetworkReachabilityStatusReachableViaWWAN:{
-                
-                
-//                HTLog(@"移动网络");
-                break;
-            }
-            default:
-                break;
-        }
-    }];
-}
+//- (void)monitorCheckReachability
+//{
+//    [[AFNetworkReachabilityManager sharedManager] setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
+//        
+//        switch (status) {
+//            case AFNetworkReachabilityStatusNotReachable:{
+//
+////                HTLog(@"无网络");
+//                break;
+//            }
+//            case AFNetworkReachabilityStatusReachableViaWiFi:{
+//           
+////                HTLog(@"WiFi网络");
+//                
+//                break;
+//            }
+//            case AFNetworkReachabilityStatusReachableViaWWAN:{
+//                
+//                
+////                HTLog(@"移动网络");
+//                break;
+//            }
+//            default:
+//                break;
+//        }
+//    }];
+//}
 
 
 - (void)downloadRefursh:(void (^)())downloadRefursh

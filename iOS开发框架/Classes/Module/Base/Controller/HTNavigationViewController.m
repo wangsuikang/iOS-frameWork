@@ -36,7 +36,7 @@
   
     HTLog(@"%@", self.childViewControllers);
     
-    [[HTAlertView createAlertView] setKeyWithController:NSStringFromClass([self.childViewControllers.lastObject class])];
+   
     
     if (self.childViewControllers.count > 0) {
       
@@ -65,29 +65,29 @@
     
     HTLog(@"%@", self.childViewControllers);
     
-    [[HTAlertView createAlertView] refreshCurrentViewWithController:NSStringFromClass([self.childViewControllers.lastObject class])];
+   
     
 }
 
 #pragma mark - 检查网络连接状态
-- (BOOL)checkReachability
-{
-    return [[AFNetworkReachabilityManager sharedManager] isReachable];
-}
+//- (BOOL)checkReachability
+//{
+//    return [[AFNetworkReachabilityManager sharedManager] isReachable];
+//}
 
 
-- (void)setAlertViewWithMessage:(NSString *)message
-{
-    UIAlertController *alert = [UIAlertController alertControllerWithTitle:HT_POINT_OUT message:message preferredStyle:UIAlertControllerStyleAlert];
-    
-    UIAlertAction *defaulAction = [UIAlertAction actionWithTitle:HT_CONFIRM_TEXT style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-        
-        
-    }];
-    [alert addAction:defaulAction];
-    [self presentViewController:alert animated:YES completion:nil];
-    
-}
+//- (void)setAlertViewWithMessage:(NSString *)message
+//{
+//    UIAlertController *alert = [UIAlertController alertControllerWithTitle:HT_POINT_OUT message:message preferredStyle:UIAlertControllerStyleAlert];
+//    
+//    UIAlertAction *defaulAction = [UIAlertAction actionWithTitle:HT_CONFIRM_TEXT style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+//        
+//        
+//    }];
+//    [alert addAction:defaulAction];
+//    [self presentViewController:alert animated:YES completion:nil];
+//    
+//}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

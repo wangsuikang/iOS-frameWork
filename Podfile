@@ -9,7 +9,7 @@ pod 'YTKNetwork', '~> 1.0.0'
 pod 'EGOTableViewPullRefreshAndLoadMore', '~> 1.0.4'
 pod 'SDWebImage', '~> 3.8.2'
 pod 'YYModel', '~> 1.0.4'
-
+pod 'SSZipArchive', '~> 1.6.2'
 pod 'Masonry', '~> 1.0.2'
 pod 'SVProgressHUD', '~> 2.0.3'
 pod 'IQKeyboardManager', '~> 4.0.6'

@@ -11,4 +11,12 @@
 #define WS_Screen_Width [[UIScreen mainScreen]bounds].size.width
 #define WS_Screen_Height [[UIScreen mainScreen]bounds].size.height
 
+#define HTDEBUG 1
+#define DEBUGERROR 1
+
+#define HTLog(format, ...)  if(HTDEBUG) { NSLog((@"%s[%d]" format), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__); }
+
+#define HTErrorLog(format, ...)  if(DEBUGERROR) { NSLog((@"%s[%d]" format), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__); }
+
+
 #endif /* iOSDeveloper_PrefixHeader_pch */
